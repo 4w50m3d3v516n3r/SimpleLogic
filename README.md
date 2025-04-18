@@ -1,5 +1,7 @@
 # Simple Logic
 
+![image info](./Resources/screenshot.png)
+
 A simple **Windows Forms** application to visualize and perform logical operations on 16‑bit patterns and convert between bases. This tool was written with **Commodore 64 enthusiasts** in mind, helping anyone learning 6502 assembly to see bit‑level operations in action.
 
 ## Features
