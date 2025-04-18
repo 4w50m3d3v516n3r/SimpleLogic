@@ -2,6 +2,8 @@
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using SimpleLogic;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BitPatternLogic
 {
@@ -36,6 +38,11 @@ namespace BitPatternLogic
 
         void InitializeComponent()
         {
+
+            MemoryStream ms = new MemoryStream(Resources.Image1);
+            MemoryStream ic = new MemoryStream(IconHelper.ConvertToIcon(Image.FromStream(ms), true));
+            this.Icon = new Icon(ic);
+
             var table = new TableLayoutPanel
             {
                 RowCount = 2,
