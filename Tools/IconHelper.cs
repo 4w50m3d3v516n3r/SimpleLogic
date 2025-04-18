@@ -2,6 +2,8 @@
 using System.Drawing.Imaging;
 using System.IO;
 
+
+//This code was taken from: https://gist.github.com/darkfall/1656050?permalink_comment_id=2375789#gistcomment-2375789
 /// <summary>
 /// Provides helper methods for imaging
 /// </summary>
